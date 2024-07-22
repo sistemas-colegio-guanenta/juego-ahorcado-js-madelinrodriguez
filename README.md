@@ -1,6 +1,6 @@
 # Juego del Ahorcado con HTML y Javascript
 
-En este juego vamos a tener un tablero de tipo "querty".  Al igual que el juego de la vida real, seleccionaremos una letra de una palabra oculta.  Si la letra coincide se dibuja en los recuadros blancos, de lo contrario se dibuja una parte del ahorcado hasta que este es completamente dibujado, con todo y la soga de la horca, y el juego termina.
+En este juego vamos a tener un teclado de tipo "qwerty".  Al igual que el juego de la vida real, seleccionaremos una letra de una palabra oculta.  Si la letra coincide se dibuja en los recuadros blancos, de lo contrario se dibuja una parte del ahorcado hasta que este es completamente dibujado, con todo y la soga de la horca, y el juego termina.
 
 Si el usuario adivina la palabra, el juego termina felicitando al usuario.  Las letras son eliminadas del teclado una vez pulsadas para evitar que el usuario las pulse dos veces.
 
@@ -13,7 +13,7 @@ Las partes del ahorcado y el patíbulo son dibujos .png, por lo que usted podrá
 - Se tienen arreglos para almacenar las teclas [*teclas_array*], las letras [*letras_array*] y las palabras [*palabras_array*].
 - Se tienen variables para calcular los aciertos y errores del jugador [*aciertos*, *errores*]
 - Se crean los objetos que permiten almacenar la información: *Tecla*, *Letra*
-- Se llena el arreglo donce se almacenan las palabras a adivinar en el juego: *palabras_array.push("PEGASO")*
+- Se llena el arreglo donde se almacenan las palabras a adivinar en el juego: *palabras_array.push("PEGASO")*
 
 ## Dibujar el teclado [juego_ahorcado_02.html]
 - Para dibujar el teclado se necesitan las funciones correspondientes para dibujar las cajas de las teclas y de las letras.
